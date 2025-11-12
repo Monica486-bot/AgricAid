@@ -51,7 +51,11 @@ npx serve .
 ```
 
 ### Live Demo
-🌐 **Live URL**: [Coming Soon - Will be deployed to Firebase]
+🌐 **Live URL**: [AgriAid Live Demo](https://agri-aid-mu.vercel.app/)
+
+### Test Accounts
+- **Demo Login**: Use any email/password combination for testing
+- **Features**: All farming tools and dashboards are functional
 
 ## 📱 Pages Overview
 
