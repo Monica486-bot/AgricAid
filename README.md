@@ -1,231 +1,150 @@
-# **AgriAid - Empowering Refugee Farmers**
+# AgriAid - Empowering Refugee Farmers
 
-A **data-driven farming support system** designed specifically for the **Rhino Refugee Camp** community. This project addresses the agricultural challenges faced by refugee farmers through **accessible technology** and **smart monitoring solutions**.
+A **data-driven farming support system** designed specifically for the **Rhino Refugee Camp** community in Uganda. This project addresses agricultural challenges faced by refugee farmers through **accessible technology** and **smart monitoring solutions**.
 
-## 🌱 **Project Overview**
+## 🌱 Project Overview
 
-Growing up in the refugee community, I witnessed the challenges farmers face in **Rhino Refugee Camp**. Limited access to **soil health information**, **weather patterns**, and **farming knowledge** leads to low crop production and food insecurity. **AgriAid** provides comprehensive solutions to these challenges.
+AgriAid provides comprehensive solutions to help refugee farmers overcome limited access to soil health information, weather patterns, and farming knowledge that leads to low crop production and food insecurity.
 
-## 🎯 **Key Features**
+## 🎯 Key Features
 
-### 1. **Soil & Weather Monitoring**
+- **Soil & Weather Monitoring** - Real-time soil health, moisture, pH, and weather data
+- **Yield Prediction Tool** - AI-powered crop yield predictions for better planning
+- **Water Management Support** - Smart irrigation recommendations and conservation
+- **Learning Platform** - Educational resources and farming best practices
+- **Resource Sharing Dashboard** - Community tool and seed sharing system
+- **Seed Bank & Trading Platform** - Seed management and trading system
 
-* **Real-time monitoring** of soil health, moisture levels, and pH
-* **Weather forecast updates**
-* **Crop suitability recommendations** based on current conditions
+## 🚀 Getting Started
 
-### 2. **Yield Prediction Tool**
+### Prerequisites
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection for real-time data updates
 
-* **AI-powered crop yield predictions**
-* **Data-driven forecasting** based on environmental conditions
-* Helps farmers **plan for food needs** and potential sales
-
-### 3. **Water Management Support**
-
-* **Smart water monitoring** using satellite data
-* **Targeted irrigation recommendations**
-* **Water conservation optimization**
-
-### 4. **Learning Platform**
-
-* **Access to farming guides and tutorials**
-* **Best practices for sustainable agriculture**
-* **Pest control and soil improvement techniques**
-
-### 5. **Resource Sharing Dashboard**
-
-* **Community tool and seed sharing**
-* **Equitable resource distribution**
-* **Performance tracking for farmers**
-
-### 6. **Seed Bank & Trading Platform**
-
-* **Community seed bank management**
-* **High-quality seed access**
-* **Trading and borrowing system**
-
-## 🚀 **Getting Started**
-
-### **Prerequisites**
-
-* **Modern web browser** (Chrome, Firefox, Safari, Edge)
-* **Internet connection** for real-time data updates
-
-### **Installation**
+### Installation & Setup
 
 1. **Clone the repository**:
-
 ```bash
-git clone https://github.com/yourusername/agraid.git
-cd agraid
+git clone https://github.com/Monica486-bot/AgricAid.git
+cd AgricAid
 ```
 
-2. **Open the project in your browser**:
-
+2. **Navigate to frontend folder**:
 ```bash
-# Navigate to the frontend folder
 cd frontend
-
-# Open index.html in your browser
-# Or use a local server:
-python -m http.server 8000
-# Then visit http://localhost:8000
 ```
 
-## 📱 **Pages Overview**
+3. **Run locally** (choose one method):
 
-### **Landing Page** (`index.html`)
+**Method 1: Direct Browser**
+- Open `index.html` in your web browser
 
-* **Project introduction and features**
-* **Impact statistics**
-* **Contact information**
-* **Navigation to login/signup**
+**Method 2: Local Server**
+```bash
+# Using Python
+python -m http.server 8000
 
-### **Authentication**
+# Using Node.js (if installed)
+npx serve .
 
-* **Login Page** (`login.html`): User and admin login
-* **Signup Page** (`signup.html`): New farmer registration
+# Then visit: http://localhost:8000
+```
 
-### **Dashboards**
+### Live Demo
+🌐 **Live URL**: [Coming Soon - Will be deployed to Firebase]
 
-* **User Dashboard** (`user-dashboard.html`): Farmer interface with community observations and learning tools
-* **Admin Dashboard** (`admin-dashboard.html`): System administration and analytics
+## 📱 Pages Overview
 
-## 🎨 **Design Features**
+- **Landing Page** (`index.html`) - Project introduction and features
+- **Authentication** - Login (`login.html`) and Signup (`signup.html`)
+- **User Dashboard** (`user-dashboard.html`) - Farmer interface
+- **Admin Dashboard** (`admin-dashboard.html`) - System administration
+- **Soil Monitoring** (`soil-monitoring.html`) - Real-time soil data
+- **Yield Prediction** (`yield-prediction.html`) - Crop forecasting
+- **Water Management** (`water-management.html`) - Irrigation optimization
+- **Learning Platform** (`learning.html`) - Educational resources
+- **Resource Sharing** (`resource-sharing.html`) - Community tools
+- **Seed Bank** (`seed-bank.html`) - Seed management system
 
-### **Color Scheme**
+## 🔧 Technical Stack
 
-Organic Earth Palette (Local Farming / Community Platform)
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Backend**: Firebase (Firestore, Authentication)
+- **Charts**: Chart.js for data visualization
+- **Icons**: Font Awesome
+- **Fonts**: Google Fonts (Poppins)
+- **Responsive**: Mobile-first design approach
 
-Use when: You focus on farmer collaboration, education, or sustainability.
+## 👥 User Types
 
-🌿 Primary: Forest Green #388E3C
+### Farmers
+- Access to personal farming dashboard
+- Real-time soil and weather data
+- Yield predictions and recommendations
+- Learning resources and community tools
 
-🧡 Accent: Burnt Orange #EF6C00
+### Administrators
+- User management and system analytics
+- Performance monitoring and resource allocation
+- System settings and content management
 
-🤎 Support: Soil Brown #6D4C41
+## 🌍 Expected Impact
 
-🌤 Secondary: Light Cream #FFF8E1
+- **85% reduction** in crop failures
+- **60% improvement** in water conservation  
+- **40% increase** in crop yields
+- **100% community access** to essential farming tools
 
-⚪ Neutral: White #FFFFFF
+## 📊 Project Structure
 
-A warm, human-centered palette that reflects real soil and sunlight.
-* **Earth Brown**: #8D6E63 (Natural brown)
+```
+AgriAid-Refugee-Farmers/
+├── frontend/
+│   ├── images/           # Project images and assets
+│   ├── index.html        # Landing page
+│   ├── login.html        # User authentication
+│   ├── signup.html       # User registration
+│   ├── user-dashboard.html    # Farmer dashboard
+│   ├── admin-dashboard.html   # Admin panel
+│   ├── soil-monitoring.html   # Soil health tracking
+│   ├── yield-prediction.html  # Crop forecasting
+│   ├── water-management.html  # Irrigation system
+│   ├── learning.html          # Educational platform
+│   ├── resource-sharing.html  # Community resources
+│   ├── seed-bank.html         # Seed management
+│   ├── styles.css             # Main stylesheet
+│   ├── script.js              # Main JavaScript
+│   ├── firebase-config.js     # Firebase configuration
+│   └── *.js                   # Feature-specific scripts
+├── README.md             # This file
+└── .gitignore           # Git ignore rules
+```
 
-### **Responsive Design**
+## 🔮 Future Enhancements
 
-* **Mobile-first approach**
-* **Tablet and desktop optimized**
-* **Touch-friendly interface**
+- Mobile app development (Android/iOS)
+- Advanced AI predictions with machine learning
+- Satellite imagery integration
+- Physical sensor connectivity
+- Community marketplace expansion
 
-## 🔧 **Technical Implementation**
+## 📞 Contact
 
-### **Frontend Technologies**
+- **Email**: info@agriaid.org
+- **Location**: Rhino Refugee Camp, Uganda
+- **Author**: Monica Akoi Dau Ahol
 
-* **HTML5**: Semantic markup
-* **CSS3**: Modern styling with Flexbox and Grid
-* **JavaScript**: Interactive functionality
-* **Chart.js**: Data visualization
-* **Font Awesome**: Icons
+## 📄 License
 
-### **Key Features**
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-* **Demo observation data simulation**
-* **Interactive charts and graphs**
-* **Form validation**
-* **Responsive navigation**
-* **Smooth animations**
+## 🙏 Acknowledgments
 
-## 📊 **Demo Observation Data**
+- Rhino Refugee Camp community
+- Local farmers and agricultural experts
+- African Leadership University
+- Technology partners and supporters
 
-The project includes simulated observation data for demos including:
-
-* **Soil pH**: 6.0 - 7.5 range
-* **Soil Moisture**: 50% - 80% range
-* **Temperature**: 20°C - 35°C range
-* **Humidity**: 60% - 90% range
-
-## 👥 **User Types**
-
-### **Farmers**
-
-* **Access to personal farming dashboard**
-* **Real-time soil and weather data**
-* **Yield predictions**
-* **Learning resources**
-* **Community tools**
-
-### **Administrators**
-
-* **User management**
-* **System analytics**
-* **Performance monitoring**
-* **Resource allocation**
-* **System settings**
-
-## 🌍 **Community Impact**
-
-### **Expected Benefits**
-
-* **85% reduction** in crop failures
-* **60% improvement** in water conservation
-* **40% increase** in crop yields
-* **100% community access** to essential tools
-
-### **Long-term Goals**
-
-* **Food self-sufficiency**
-* **Reduced dependency on external aid**
-* **Sustainable farming practices**
-* **Community resilience**
-
-## 🔮 **Future Enhancements**
-
-### **Planned Features**
-
-* **Mobile app development**
-* **Advanced AI predictions**
-* **Satellite imagery integration**
-* **Weather station network**
-* **Community marketplace**
-
-### **Technical Improvements**
-
-* **Backend API development**
-* **Database integration**
-* **Demo sensor connectivity (optional for advanced setups)**
-* **Machine learning models**
-* **Cloud deployment**
-
-## 🤝 **Contributing**
-
-We welcome contributions to improve **AgriAid**:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-3. **Make your changes**
-4. **Test thoroughly**
-5. **Submit a pull request**
-
-## 📞 **Contact**
-
-* **Email**: [info@agriaid.org](mailto:info@agriaid.org)
-* **Location**: **Rhino Refugee Camp, Uganda**
-* **Project**: **AgriAid - Empowering Refugee Farmers**
-
-## 📄 **License**
-
-This project is licensed under the **MIT License** - see the LICENSE file for details.
-
-## 🙏 **Acknowledgments**
-
-* **Rhino Refugee Camp community**
-* **Local farmers and agricultural experts**
-* **Technology partners and supporters**
-* **Open source community**
-
-## Author: Monica Akoi
 ---
 
-**AgriAid** - **Building a sustainable future for refugee farmers through technology and community support.**
-
+**AgriAid** - Building a sustainable future for refugee farmers through technology and community support.
