@@ -5,13 +5,13 @@ import { getFirestore, doc, getDoc } from 'https://www.gstatic.com/firebasejs/10
 
 // Firebase configuration (same as login.html)
 const firebaseConfig = {
-    apiKey: "AIzaSyAtFuLj86FT3Xe3zOkfZz45nQ-HaICG1l8",
-    authDomain: "agriaid-6ad0b.firebaseapp.com",
-    projectId: "agriaid-6ad0b",
-    storageBucket: "agriaid-6ad0b.firebasestorage.app",
-    messagingSenderId: "529552760039",
-    appId: "1:529552760039:web:461d55da50b1d623f85642",
-    measurementId: "G-HHV5BDNDHD"
+    apiKey: "YOUR_API_KEY_HERE",
+    authDomain: "your-project.firebaseapp.com",
+    projectId: "your-project-id",
+    storageBucket: "your-project.firebasestorage.app",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase

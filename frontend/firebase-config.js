@@ -10,14 +10,14 @@ import { getDatabase } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBOJSo0b_AN4HB7wHVN8ERAAgGkilTnZWk",
-    authDomain: "cmua-7957a.firebaseapp.com",
-    databaseURL: "https://cmua-7957a-default-rtdb.firebaseio.com",
-    projectId: "cmua-7957a",
-    storageBucket: "cmua-7957a.appspot.com",
-    messagingSenderId: "273566170303",
-    appId: "1:273566170303:web:3d02105c5dd0e15e251a0a",
-    measurementId: "G-0T0Q0TP91N"
+    apiKey: "YOUR_API_KEY_HERE",
+    authDomain: "your-project.firebaseapp.com",
+    databaseURL: "https://your-project-default-rtdb.firebaseio.com",
+    projectId: "your-project-id",
+    storageBucket: "your-project.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID",
+    measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 // Initialize Firebase
