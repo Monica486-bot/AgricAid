@@ -30,6 +30,3 @@
 - **Authentication**: Firebase Auth
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Charts**: Chart.js
-
-## Last Updated
-November 28, 2024
